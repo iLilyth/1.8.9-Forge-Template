@@ -14,11 +14,6 @@ Repo includes:
   minecraft   1.8.9
 forgegradle   6f53277
 ```
-```
-                    vigilance 195
-                    essential 12174+g776a77319
-essentialloader-launchwrapper 1.1.3
-```
 # Setup
 1. Clone this repository.
 2. Import `build.gradle` as a project.
@@ -33,8 +28,3 @@ Run `build` in gradle `Tasks > build > build`
 Run `genIntellijRuns` in Gradle: `Tasks > forgegradle > genIntellijRuns`
 > This will create the run configurations.
 > Note: you will need to change the classpath module to .main
-# Usage
-If you're planning on using this in a development environment, don't forget to add this command to the program arguments or else it will not work!
-```
---tweakClass gg.essential.loader.stage0.EssentialSetupTweaker
-```
