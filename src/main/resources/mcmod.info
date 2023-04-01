@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "examplemod",
+    "name": "ExampleMod",
+    "description": "Mod template for forge",
+    "version": "1.0",
+    "mcversion": "1.8.9",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["iLilyth", "dxxxxy"],
+    "credits": "The Forge and FML guys, for making this example. dxxxxy for fixing it. iLilyth for fixing it again.",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
